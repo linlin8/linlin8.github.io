@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-07-29T02:51:42.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="C-N6QzyVyOfFt--tkfA9" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-29T02:52:18.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="IB_y8AWdq1fzlIo8ZLnE" version="14.9.0" type="github">
   <diagram id="eHS7JZv-YztAtAW-dQek" name="Page-1">
-    <mxGraphModel dx="782" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="412" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4crUNOPvbyheSk_j_8Qz-1" value="mysql-master&lt;br&gt;192.168.0.101" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="560" y="110" width="120" height="80" as="geometry" />
+          <mxGeometry x="545" y="110" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4crUNOPvbyheSk_j_8Qz-2" value="mysql-slave&lt;br&gt;192.168.0.102" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="560" y="250" width="120" height="80" as="geometry" />
+          <mxGeometry x="545" y="250" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4crUNOPvbyheSk_j_8Qz-9" value="定时存活检查" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4crUNOPvbyheSk_j_8Qz-4" target="4crUNOPvbyheSk_j_8Qz-1">
           <mxGeometry relative="1" as="geometry" />
@@ -27,8 +27,8 @@
         </mxCell>
         <mxCell id="4crUNOPvbyheSk_j_8Qz-8" value="主从复制" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;rounded=1;" edge="1" parent="1" source="4crUNOPvbyheSk_j_8Qz-2" target="4crUNOPvbyheSk_j_8Qz-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="250" as="sourcePoint" />
-            <mxPoint x="510" y="200" as="targetPoint" />
+            <mxPoint x="445" y="250" as="sourcePoint" />
+            <mxPoint x="495" y="200" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
